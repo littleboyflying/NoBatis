@@ -1,0 +1,20 @@
+{
+  "extends": "@tsconfig/node14/tsconfig.json",
+  "compilerOptions": {
+    "sourceMap": false,
+    "declaration": true,
+    "module": "CommonJS",
+    "target": "es2020",
+    "outDir": "./dist",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "noImplicitAny": false,
+    "allowJs": false,
+    "baseUrl": "src/main"
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["**/node_modules", "src/test/**", "dist", "es-batis"]
+}
