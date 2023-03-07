@@ -1,0 +1,2 @@
+# NoBatis
+模拟java的mybatis设计思路开发一个用于nodejs的半自动化orm框架
